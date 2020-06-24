@@ -15,7 +15,7 @@ namespace tests
             Assert.Equal(3, generated.Count());
         }
 
-        [Fact]
+        /*[Fact]
         public void SortShouldOrderResults()
         {
             var range = new api.Controllers.Range {Count = 3, Sort = true};
@@ -23,6 +23,6 @@ namespace tests
             var counter = 0;
             var generated = range.GetOffsetAndLength(() => values[counter++]);
             AssemblyLoadEventArgs.Equals(new[]{ "a","b","c"}, generated.ToArray());
-        }
+        }*/
     }
 }
